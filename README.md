@@ -7,8 +7,6 @@ Ken Franklin”
 
 # Documentation for "Milestones 2000" by Ken Franklin
 
----
-
 ## INTRODUCTION
 
 MILESTONES 2000 is an automobile race game played with a special deck of cards.  One player plays against the computer.  It is written in ORCA Pascal, which uses the speed, the stereo sound, and the advantages of GSOS 5.0.2.  The program contains over 500K of digitized sound and graphics files, packed into a single 340K file for ease of use (using Apple's sound and graphics compression techniques).
@@ -26,8 +24,6 @@ If you don't enjoy it, or don't want to pay the $15, then please delete it or pa
 
 Your honesty and constructive criticism are appreciated.
 
----
-
 ## LEGAL STUFF
 
 This documentation and software are Copyright 1990 by Ken Franklin.  I give permission to distribute copies of the package ONLY AS A UNIT (documentation, program, and icon file) and ONLY FOR FREE.  I do not give permission for the sale of copies of this package.  All other rights are reserved.  I make no guarantees that this program will make your dog behave, or raise your computer's consciousness.  If you don't want it, toss it.
@@ -36,14 +32,10 @@ User groups who want to distribute this package for a small "copying fee" can ge
 
 This program contains material from the ORCA/Pascal Run-Time Libraries, copyright 1987-1988 by Byte Works, Inc.  Used with permission.
 
----
-
 ## SYSTEM REQUIREMENTS
 
 * **Hardware / RAM:** Milestones 2000 requires an Apple IIGS with 1 Meg of RAM.  To use this minimum configuration, you need to prepare a "stripped-down" system disk (see **3.5" DISK INSTALLATION** below).  Users with a hard drive and many desk accessories will probably need a bit more RAM.
 * **System Version:** System 5.0.2 (as a minimum) is needed to run MILESTONES 2000.  However, System 5.0.4 is recommended, since the audio processing tools are much faster in that version.
-
----
 
 ## HOW TO PLAY THE GAME
 
@@ -51,8 +43,6 @@ Complete rules of the game are included under the "Game" item, under "Help".
 
 * **Interface:** Basically, when you see a watch icon, it's the computer's turn; when you see a pointer icon, it's your turn.  You play a card by pointing at it with the cursor, then dragging it to where you want to play it.
 * **Objective:** The basic object of the Game is to score 5000 points by competing in a series of road rallies.  Your Apple ][gs is your opponent.  You use a special deck of 101 cards to play Milestones 2000: there are Distance cards, Fix cards, and Power cards to aid your cause, and Problem cards to hinder your opponent.
-
----
 
 ## HARD DISK INSTALLATION
 
@@ -63,8 +53,6 @@ Make sure the files MILESTONES.2000 and MSHOF are in the same directory; then la
 > **IMPORTANT:** Your IIGS will write to the file MSHOF any time you quit.  If you lock that file, or delete it, or write-protect the volume it's on -- you'll get a nasty message, and any saved game or updates to the "Hall of Fame" will be lost.  At ehe start of the program, the IIGS looks for the file; if it's messed up, missing or inaccessible, the program will try to recover -- but I make no guarantees, other than it doesn't try to erase anything.
 
 An extra copy of the file MSHOF is included, called EMPTYHOF.  If all else fails, delete MSHOF and rename the file EMPTYHOF to MSHOF..
-
----
 
 ## 3.5" DISK INSTALLATION
 
@@ -81,8 +69,6 @@ An extra copy of the file MSHOF is included, called EMPTYHOF.  If all else fails
 11. Finally (!) you should now have a disk with over 340K free. Copy the files MSHOF and MILESTONES.2000 to the root directory of this disk.  Then rename MILESTONES.2000 to MS.SYS16.
 12. Boot this disk, and it will run the game.  When you select Quit, it will save MSHOF and restart -- as soon as the game reappears, you can turn off your machine.
 
----
-
 ## WHAT'S NEW IN VERSION 1.5
 
 * The "About" box shows my current address.
@@ -92,8 +78,6 @@ An extra copy of the file MSHOF is included, called EMPTYHOF.  If all else fails
 * The Info menu has two options: TURN SOUND ON/OFF (self-explanatory) and TURN DECK COUNT ON/OFF.  The latter toggles a small blue rectangle at the bottom of the screen that shows how many cards remain in the deck; when 10 or less cards remain, the rectangle turns red.
 * By dragging cards back and forth in the green section, you can now rearrange your hand.
 * Finally, I changed the Acknowledgements (under "Help") to include my new son, Jeremy Karl Franklin.
-
----
 
 ## TECHNICAL NOTES
 
@@ -111,8 +95,6 @@ If you're interested, the number $BA6 was used because the hex digits correspond
 The Blue car (as my son Matt points out) is my 1989 Chrysler LeBaron, also known as "Spacerider".
 
 Enjoy.
-
----
 
 --Ken Franklin  
 22 December 1990
