@@ -1,0 +1,3826 @@
+#include "Types.rez"
+
+
+/* picstats */
+type 0x0ba7 {
+	array Entries {
+		integer; /* width */
+		integer; /* right */
+		integer; /* bottom */
+	};
+};
+
+
+/* ssrec */
+type 0x3BA6 {
+	array Entries {
+		integer; /* size */
+		integer; /* rate */
+		integer; /* volume */
+		integer; /* channel */
+	};
+};
+
+
+read 0x0ba6 (0x1, 0x0300) "type_0ba6/id_0001.bin";
+read 0x0ba6 (0x2, 0x0300) "type_0ba6/id_0002.bin";
+read 0x0ba6 (0x3, 0x0300) "type_0ba6/id_0003.bin";
+read 0x0ba6 (0x4, 0x0300) "type_0ba6/id_0004.bin";
+read 0x0ba6 (0x5, 0x0300) "type_0ba6/id_0005.bin";
+read 0x0ba6 (0x6, 0x0300) "type_0ba6/id_0006.bin";
+read 0x0ba6 (0x7, 0x0300) "type_0ba6/id_0007.bin";
+read 0x0ba6 (0x8, 0x0300) "type_0ba6/id_0008.bin";
+read 0x0ba6 (0x9, 0x0300) "type_0ba6/id_0009.bin";
+read 0x0ba6 (0xa, 0x0300) "type_0ba6/id_000a.bin";
+read 0x0ba6 (0xb, 0x0300) "type_0ba6/id_000b.bin";
+read 0x0ba6 (0xc, 0x0300) "type_0ba6/id_000c.bin";
+read 0x0ba6 (0xd, 0x0300) "type_0ba6/id_000d.bin";
+read 0x0ba6 (0xe, 0x0300) "type_0ba6/id_000e.bin";
+read 0x0ba6 (0xf, 0x0300) "type_0ba6/id_000f.bin";
+read 0x0ba6 (0x10, 0x0300) "type_0ba6/id_0010.bin";
+read 0x0ba6 (0x11, 0x0300) "type_0ba6/id_0011.bin";
+read 0x0ba6 (0x12, 0x0300) "type_0ba6/id_0012.bin";
+read 0x0ba6 (0x13, 0x0300) "type_0ba6/id_0013.bin";
+read 0x0ba6 (0x14, 0x0300) "type_0ba6/id_0014.bin";
+read 0x0ba6 (0x15, 0x0300) "type_0ba6/id_0015.bin";
+read 0x0ba6 (0x16, 0x0300) "type_0ba6/id_0016.bin";
+read 0x0ba6 (0x17, 0x0300) "type_0ba6/id_0017.bin";
+read 0x0ba6 (0x18, 0x0300) "type_0ba6/id_0018.bin";
+read 0x0ba6 (0x19, 0x0300) "type_0ba6/id_0019.bin";
+read 0x0ba6 (0x1a, 0x0300) "type_0ba6/id_001a.bin";
+read 0x0ba6 (0x1b, 0x0300) "type_0ba6/id_001b.bin";
+read 0x0ba6 (0x1c, 0x0300) "type_0ba6/id_001c.bin";
+read 0x0ba6 (0x1d, 0x0300) "type_0ba6/id_001d.bin";
+read 0x0ba6 (0x1e, 0x0300) "type_0ba6/id_001e.bin";
+read 0x0ba6 (0x1f, 0x0300) "type_0ba6/id_001f.bin";
+read 0x0ba6 (0x20, 0x0300) "type_0ba6/id_0020.bin";
+read 0x0ba6 (0x21, 0x0300) "type_0ba6/id_0021.bin";
+read 0x0ba6 (0x22, 0x0300) "type_0ba6/id_0022.bin";
+read 0x0ba6 (0x23, 0x0300) "type_0ba6/id_0023.bin";
+read 0x0ba6 (0x24, 0x0300) "type_0ba6/id_0024.bin";
+read 0x0ba6 (0x25, 0x0300) "type_0ba6/id_0025.bin";
+read 0x0ba6 (0x26, 0x0300) "type_0ba6/id_0026.bin";
+read 0x0ba6 (0x27, 0x0300) "type_0ba6/id_0027.bin";
+read 0x0ba6 (0x28, 0x0300) "type_0ba6/id_0028.bin";
+read 0x0ba6 (0x29, 0x0300) "type_0ba6/id_0029.bin";
+read 0x0ba6 (0x2a, 0x0300) "type_0ba6/id_002a.bin";
+read 0x0ba6 (0x2b, 0x0300) "type_0ba6/id_002b.bin";
+read 0x0ba6 (0x2c, 0x0300) "type_0ba6/id_002c.bin";
+read 0x0ba6 (0x2d, 0x0300) "type_0ba6/id_002d.bin";
+read 0x0ba6 (0x2e, 0x0300) "type_0ba6/id_002e.bin";
+read 0x0ba6 (0x2f, 0x0300) "type_0ba6/id_002f.bin";
+read 0x0ba6 (0x30, 0x0300) "type_0ba6/id_0030.bin";
+read 0x0ba6 (0x31, 0x0300) "type_0ba6/id_0031.bin";
+read 0x0ba6 (0x32, 0x0300) "type_0ba6/id_0032.bin";
+read 0x0ba6 (0x33, 0x0300) "type_0ba6/id_0033.bin";
+read 0x0ba6 (0x34, 0x0300) "type_0ba6/id_0034.bin";
+read 0x0ba6 (0x35, 0x0300) "type_0ba6/id_0035.bin";
+read 0x0ba6 (0x36, 0x0300) "type_0ba6/id_0036.bin";
+read 0x0ba6 (0x37, 0x0300) "type_0ba6/id_0037.bin";
+read 0x0ba6 (0x38, 0x0300) "type_0ba6/id_0038.bin";
+read 0x0ba6 (0x39, 0x0300) "type_0ba6/id_0039.bin";
+read 0x0ba6 (0x3a, 0x0300) "type_0ba6/id_003a.bin";
+read 0x0ba6 (0x3b, 0x0300) "type_0ba6/id_003b.bin";
+read 0x0ba6 (0x3c, 0x0300) "type_0ba6/id_003c.bin";
+
+
+resource 0xBA7 (0x1, purgeable3) {
+	{	/* array Entries: 60 elements */
+		/* [1] */
+		8,
+		16,
+		8,
+		/* [2] */
+		8,
+		16,
+		8,
+		/* [3] */
+		8,
+		16,
+		8,
+		/* [4] */
+		8,
+		16,
+		8,
+		/* [5] */
+		8,
+		16,
+		8,
+		/* [6] */
+		8,
+		16,
+		8,
+		/* [7] */
+		8,
+		16,
+		8,
+		/* [8] */
+		8,
+		16,
+		8,
+		/* [9] */
+		8,
+		16,
+		8,
+		/* [10] */
+		8,
+		16,
+		8,
+		/* [11] */
+		8,
+		16,
+		63,
+		/* [12] */
+		8,
+		12,
+		35,
+		/* [13] */
+		8,
+		12,
+		35,
+		/* [14] */
+		16,
+		19,
+		17,
+		/* [15] */
+		8,
+		14,
+		25,
+		/* [16] */
+		8,
+		14,
+		25,
+		/* [17] */
+		8,
+		15,
+		22,
+		/* [18] */
+		8,
+		15,
+		22,
+		/* [19] */
+		8,
+		15,
+		22,
+		/* [20] */
+		8,
+		15,
+		22,
+		/* [21] */
+		48,
+		88,
+		23,
+		/* [22] */
+		48,
+		88,
+		23,
+		/* [23] */
+		48,
+		96,
+		34,
+		/* [24] */
+		48,
+		96,
+		34,
+		/* [25] */
+		56,
+		97,
+		30,
+		/* [26] */
+		56,
+		97,
+		30,
+		/* [27] */
+		64,
+		114,
+		35,
+		/* [28] */
+		64,
+		114,
+		35,
+		/* [29] */
+		16,
+		27,
+		33,
+		/* [30] */
+		8,
+		12,
+		65,
+		/* [31] */
+		96,
+		180,
+		50,
+		/* [32] */
+		40,
+		67,
+		90,
+		/* [33] */
+		40,
+		67,
+		90,
+		/* [34] */
+		40,
+		67,
+		90,
+		/* [35] */
+		40,
+		67,
+		90,
+		/* [36] */
+		40,
+		67,
+		90,
+		/* [37] */
+		40,
+		67,
+		90,
+		/* [38] */
+		40,
+		67,
+		90,
+		/* [39] */
+		40,
+		67,
+		90,
+		/* [40] */
+		40,
+		67,
+		90,
+		/* [41] */
+		40,
+		67,
+		90,
+		/* [42] */
+		40,
+		67,
+		90,
+		/* [43] */
+		40,
+		67,
+		90,
+		/* [44] */
+		40,
+		67,
+		90,
+		/* [45] */
+		40,
+		67,
+		90,
+		/* [46] */
+		40,
+		67,
+		90,
+		/* [47] */
+		40,
+		67,
+		90,
+		/* [48] */
+		40,
+		67,
+		90,
+		/* [49] */
+		40,
+		67,
+		90,
+		/* [50] */
+		40,
+		67,
+		90,
+		/* [51] */
+		40,
+		67,
+		90,
+		/* [52] */
+		160,
+		320,
+		200,
+		/* [53] */
+		80,
+		160,
+		90,
+		/* [54] */
+		80,
+		160,
+		90,
+		/* [55] */
+		80,
+		160,
+		90,
+		/* [56] */
+		80,
+		160,
+		90,
+		/* [57] */
+		80,
+		160,
+		90,
+		/* [58] */
+		80,
+		160,
+		90,
+		/* [59] */
+		80,
+		160,
+		90,
+		/* [60] */
+		80,
+		160,
+		90
+	}
+};
+
+
+
+
+
+read 0x2ba6 (0x1, 0x0314) "type_2ba6/id_0001.bin";
+read 0x2ba6 (0x2, 0x0314) "type_2ba6/id_0002.bin";
+read 0x2ba6 (0x3, 0x0314) "type_2ba6/id_0003.bin";
+read 0x2ba6 (0x4, 0x0314) "type_2ba6/id_0004.bin";
+read 0x2ba6 (0x5, 0x0314) "type_2ba6/id_0005.bin";
+read 0x2ba6 (0x6, 0x0314) "type_2ba6/id_0006.bin";
+read 0x2ba6 (0x7, 0x0314) "type_2ba6/id_0007.bin";
+read 0x2ba6 (0x8, 0x0314) "type_2ba6/id_0008.bin";
+read 0x2ba6 (0x9, 0x0314) "type_2ba6/id_0009.bin";
+read 0x2ba6 (0xa, 0x0314) "type_2ba6/id_000a.bin";
+read 0x2ba6 (0xb, 0x0314) "type_2ba6/id_000b.bin";
+read 0x2ba6 (0xc, 0x0314) "type_2ba6/id_000c.bin";
+read 0x2ba6 (0xd, 0x0314) "type_2ba6/id_000d.bin";
+read 0x2ba6 (0xe, 0x0314) "type_2ba6/id_000e.bin";
+read 0x2ba6 (0xf, 0x0314) "type_2ba6/id_000f.bin";
+read 0x2ba6 (0x10, 0x0314) "type_2ba6/id_0010.bin";
+read 0x2ba6 (0x11, 0x0314) "type_2ba6/id_0011.bin";
+read 0x2ba6 (0x12, 0x0314) "type_2ba6/id_0012.bin";
+read 0x2ba6 (0x13, 0x0314) "type_2ba6/id_0013.bin";
+read 0x2ba6 (0x14, 0x0314) "type_2ba6/id_0014.bin";
+read 0x2ba6 (0x15, 0x0314) "type_2ba6/id_0015.bin";
+read 0x2ba6 (0x16, 0x0314) "type_2ba6/id_0016.bin";
+read 0x2ba6 (0x17, 0x0314) "type_2ba6/id_0017.bin";
+read 0x2ba6 (0x18, 0x0314) "type_2ba6/id_0018.bin";
+read 0x2ba6 (0x19, 0x0314) "type_2ba6/id_0019.bin";
+read 0x2ba6 (0x1a, 0x0314) "type_2ba6/id_001a.bin";
+read 0x2ba6 (0x1b, 0x0314) "type_2ba6/id_001b.bin";
+read 0x2ba6 (0x1c, 0x0314) "type_2ba6/id_001c.bin";
+read 0x2ba6 (0x1d, 0x0314) "type_2ba6/id_001d.bin";
+read 0x2ba6 (0x1e, 0x0314) "type_2ba6/id_001e.bin";
+read 0x2ba6 (0x1f, 0x0314) "type_2ba6/id_001f.bin";
+read 0x2ba6 (0x20, 0x0314) "type_2ba6/id_0020.bin";
+
+
+resource 0x3BA6 (0x1, preload, nocrossbank) {
+	{	/* array Entries: 32 elements */
+		/* [1] */
+		40,
+		108,
+		8,
+		0,
+		/* [2] */
+		54,
+		108,
+		11,
+		0,
+		/* [3] */
+		31,
+		81,
+		8,
+		0,
+		/* [4] */
+		53,
+		113,
+		11,
+		0,
+		/* [5] */
+		55,
+		113,
+		9,
+		0,
+		/* [6] */
+		39,
+		113,
+		8,
+		1,
+		/* [7] */
+		53,
+		134,
+		11,
+		1,
+		/* [8] */
+		32,
+		302,
+		13,
+		1,
+		/* [9] */
+		33,
+		113,
+		8,
+		1,
+		/* [10] */
+		61,
+		154,
+		9,
+		1,
+		/* [11] */
+		41,
+		80,
+		11,
+		0,
+		/* [12] */
+		54,
+		81,
+		8,
+		1,
+		/* [13] */
+		47,
+		61,
+		14,
+		0,
+		/* [14] */
+		65,
+		113,
+		12,
+		1,
+		/* [15] */
+		71,
+		91,
+		10,
+		0,
+		/* [16] */
+		63,
+		64,
+		9,
+		1,
+		/* [17] */
+		53,
+		113,
+		11,
+		1,
+		/* [18] */
+		51,
+		108,
+		11,
+		1,
+		/* [19] */
+		74,
+		136,
+		10,
+		1,
+		/* [20] */
+		41,
+		112,
+		13,
+		0,
+		/* [21] */
+		39,
+		125,
+		10,
+		1,
+		/* [22] */
+		71,
+		108,
+		11,
+		0,
+		/* [23] */
+		32,
+		136,
+		11,
+		0,
+		/* [24] */
+		35,
+		129,
+		15,
+		1,
+		/* [25] */
+		3,
+		113,
+		11,
+		0,
+		/* [26] */
+		38,
+		105,
+		14,
+		1,
+		/* [27] */
+		54,
+		109,
+		11,
+		1,
+		/* [28] */
+		64,
+		145,
+		11,
+		0,
+		/* [29] */
+		70,
+		113,
+		10,
+		1,
+		/* [30] */
+		74,
+		113,
+		11,
+		0,
+		/* [31] */
+		31,
+		158,
+		11,
+		0,
+		/* [32] */
+		36,
+		86,
+		12,
+		0
+	}
+};
+
+
+resource rControlList (0x11000) {
+	{	/* array: 24 elements */
+		/* [1] */
+		0x41000,
+		/* [2] */
+		0x41001,
+		/* [3] */
+		0x41002,
+		/* [4] */
+		0x41003,
+		/* [5] */
+		0x41004,
+		/* [6] */
+		0x41005,
+		/* [7] */
+		0x41006,
+		/* [8] */
+		0x41007,
+		/* [9] */
+		0x41008,
+		/* [10] */
+		0x41009,
+		/* [11] */
+		0x4100A,
+		/* [12] */
+		0x4100B,
+		/* [13] */
+		0x4100C,
+		/* [14] */
+		0x4100D,
+		/* [15] */
+		0x4100E,
+		/* [16] */
+		0x4100F,
+		/* [17] */
+		0x41010,
+		/* [18] */
+		0x41011,
+		/* [19] */
+		0x41012,
+		/* [20] */
+		0x41013,
+		/* [21] */
+		0x41014,
+		/* [22] */
+		0x41015,
+		/* [23] */
+		0x41016,
+		/* [24] */
+		0x41017
+	}
+};
+
+resource rControlList (0x12000) {
+	{	/* array: 25 elements */
+		/* [1] */
+		0x42000,
+		/* [2] */
+		0x42001,
+		/* [3] */
+		0x42002,
+		/* [4] */
+		0x42003,
+		/* [5] */
+		0x42004,
+		/* [6] */
+		0x42005,
+		/* [7] */
+		0x42006,
+		/* [8] */
+		0x42007,
+		/* [9] */
+		0x42008,
+		/* [10] */
+		0x42009,
+		/* [11] */
+		0x4200A,
+		/* [12] */
+		0x4200B,
+		/* [13] */
+		0x4200C,
+		/* [14] */
+		0x4200D,
+		/* [15] */
+		0x4200E,
+		/* [16] */
+		0x4200F,
+		/* [17] */
+		0x42010,
+		/* [18] */
+		0x42011,
+		/* [19] */
+		0x42012,
+		/* [20] */
+		0x42013,
+		/* [21] */
+		0x42014,
+		/* [22] */
+		0x42015,
+		/* [23] */
+		0x42016,
+		/* [24] */
+		0x42017,
+		/* [25] */
+		0x42018
+	}
+};
+
+resource rControlList (0x13000) {
+	{	/* array: 2 elements */
+		/* [1] */
+		0x43000,
+		/* [2] */
+		0x43001
+	}
+};
+
+resource rControlList (0x15000) {
+	{	/* array: 4 elements */
+		/* [1] */
+		0x45000,
+		/* [2] */
+		0x45001,
+		/* [3] */
+		0x45002,
+		/* [4] */
+		0x45003
+	}
+};
+
+resource rControlList (0x16000) {
+	{	/* array: 7 elements */
+		/* [1] */
+		0x46000,
+		/* [2] */
+		0x46001,
+		/* [3] */
+		0x46002,
+		/* [4] */
+		0x46003,
+		/* [5] */
+		0x46004,
+		/* [6] */
+		0x46005,
+		/* [7] */
+		0x46006
+	}
+};
+
+resource rControlList (0x18000) {
+	{	/* array: 6 elements */
+		/* [1] */
+		0x48000,
+		/* [2] */
+		0x48001,
+		/* [3] */
+		0x48002,
+		/* [4] */
+		0x48003,
+		/* [5] */
+		0x48004,
+		/* [6] */
+		0x48005
+	}
+};
+
+resource rControlList (0x19000) {
+	{	/* array: 7 elements */
+		/* [1] */
+		0x49000,
+		/* [2] */
+		0x49001,
+		/* [3] */
+		0x49002,
+		/* [4] */
+		0x49003,
+		/* [5] */
+		0x49004,
+		/* [6] */
+		0x49005,
+		/* [7] */
+		0x49006
+	}
+};
+
+resource rControlList (0x1B000) {
+	{	/* array: 6 elements */
+		/* [1] */
+		0x4B000,
+		/* [2] */
+		0x4B001,
+		/* [3] */
+		0x4B002,
+		/* [4] */
+		0x4B003,
+		/* [5] */
+		0x4B004,
+		/* [6] */
+		0x4B005
+	}
+};
+
+resource rControlList (0x20000) {
+	{	/* array: 1 elements */
+		/* [1] */
+		0x50000
+	}
+};
+
+resource rControlTemplate (0x41000) {
+	0x1,
+	{134, 60, 148, 143},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x1,
+			0x300A,
+			0x0,
+			0x41000,
+			0x41000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41001) {
+	0x2,
+	{134, 170, 148, 253},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x41001,
+			0x41001,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\0x1B",
+				"\0x1B",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41002) {
+	0x3,
+	{14, 10, 23, 103},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41002,
+			1,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41003) {
+	0x4,
+	{24, 10, 33, 157},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41003,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41004) {
+	0x5,
+	{34, 10, 43, 78},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41004,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41005) {
+	0x6,
+	{44, 10, 53, 148},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41005,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41006) {
+	0x7,
+	{54, 10, 63, 139},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41006,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41007) {
+	0x8,
+	{64, 10, 73, 142},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41007,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41008) {
+	0x9,
+	{74, 10, 83, 114},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41008,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41009) {
+	0xA,
+	{84, 10, 93, 133},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41009,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4100A) {
+	0xB,
+	{94, 10, 103, 98},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x4100A,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4100B) {
+	0xC,
+	{104, 10, 113, 109},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x4100B,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4100C) {
+	0xD,
+	{114, 10, 123, 127},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x4100C,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4100D) {
+	0xE,
+	{14, 160, 23, 238},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x4100D,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4100E) {
+	0xF,
+	{24, 160, 33, 282},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x4100E,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4100F) {
+	0x10,
+	{34, 160, 43, 284},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x4100F,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41010) {
+	0x11,
+	{44, 160, 53, 229},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41010,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41011) {
+	0x12,
+	{54, 160, 63, 294},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41011,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41012) {
+	0x13,
+	{64, 160, 73, 281},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41012,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41013) {
+	0x14,
+	{74, 160, 83, 274},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41013,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41014) {
+	0x15,
+	{84, 160, 93, 270},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41014,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41015) {
+	0x16,
+	{94, 160, 103, 272},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41015,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41016) {
+	0x17,
+	{104, 160, 113, 291},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41016,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x41017) {
+	0x18,
+	{114, 160, 123, 306},
+	RadioControl {
+		 {	/* optional Fields */
+			0x1,
+			0x1002,
+			0x0,
+			0x41017,
+			0,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"",
+				"",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x42000) {
+	0x1,
+	{150, 126, 164, 188},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x1,
+			0x300A,
+			0x0,
+			0x42000,
+			0x42000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x42001) {
+	0x2,
+	{150, 19, 164, 100},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x42001,
+			0x42001,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\b",
+				"\b",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x42002) {
+	0x3,
+	{150, 211, 164, 292},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x42002,
+			0x42002,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\0x15",
+				"\0x15",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x42003) {
+	0x4,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42003,
+			398
+		}
+	}
+};
+
+resource rControlTemplate (0x42004) {
+	0x5,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42004,
+			318
+		}
+	}
+};
+
+resource rControlTemplate (0x42005) {
+	0x6,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42005,
+			283
+		}
+	}
+};
+
+resource rControlTemplate (0x42006) {
+	0x7,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42006,
+			196
+		}
+	}
+};
+
+resource rControlTemplate (0x42007) {
+	0x8,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42007,
+			421
+		}
+	}
+};
+
+resource rControlTemplate (0x42008) {
+	0x9,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42008,
+			280
+		}
+	}
+};
+
+resource rControlTemplate (0x42009) {
+	0xA,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42009,
+			385
+		}
+	}
+};
+
+resource rControlTemplate (0x4200A) {
+	0xB,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4200A,
+			316
+		}
+	}
+};
+
+resource rControlTemplate (0x4200B) {
+	0xC,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4200B,
+			376
+		}
+	}
+};
+
+resource rControlTemplate (0x4200C) {
+	0xD,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4200C,
+			446
+		}
+	}
+};
+
+resource rControlTemplate (0x4200D) {
+	0xE,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4200D,
+			425
+		}
+	}
+};
+
+resource rControlTemplate (0x4200E) {
+	0xF,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4200E,
+			396
+		}
+	}
+};
+
+resource rControlTemplate (0x4200F) {
+	0x10,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4200F,
+			346
+		}
+	}
+};
+
+resource rControlTemplate (0x42010) {
+	0x11,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42010,
+			232
+		}
+	}
+};
+
+resource rControlTemplate (0x42011) {
+	0x12,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42011,
+			288
+		}
+	}
+};
+
+resource rControlTemplate (0x42012) {
+	0x13,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42012,
+			170
+		}
+	}
+};
+
+resource rControlTemplate (0x42013) {
+	0x14,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42013,
+			361
+		}
+	}
+};
+
+resource rControlTemplate (0x42014) {
+	0x15,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42014,
+			323
+		}
+	}
+};
+
+resource rControlTemplate (0x42015) {
+	0x16,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42015,
+			113
+		}
+	}
+};
+
+resource rControlTemplate (0x42016) {
+	0x17,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42016,
+			376
+		}
+	}
+};
+
+resource rControlTemplate (0x42017) {
+	0x18,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42017,
+			437,
+			leftJust
+		}
+	}
+};
+
+resource rControlTemplate (0x42018) {
+	0x19,
+	{13, 10, 157, 317},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x42018,
+			414,
+			leftJust
+		}
+	}
+};
+
+resource rControlTemplate (0x43000) {
+	0x1,
+	{139, 122, 153, 169},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x1,
+			0x3002,
+			0x0,
+			0x43000,
+			0x0,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x43001) {
+	0x2,
+	{10, 12, 127, 278},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x43001,
+			212,
+			leftJust
+		}
+	}
+};
+
+resource rControlTemplate (0x45000) {
+	0x1,
+	{48, 171, 62, 238},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x1,
+			0x300A,
+			0x0,
+			0x45000,
+			0x45000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x45001) {
+	0x2,
+	{48, 95, 62, 163},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x45001,
+			0x45001,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\0x1B",
+				"\0x1B",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x45002) {
+	0x3,
+	{24, 48, 39, 197},
+	editLineControl {
+		 {	/* optional Fields */
+			0x0,
+			0x7002,
+			0x0,
+			10,
+			0x45002
+		}
+	}
+};
+
+resource rControlTemplate (0x45003) {
+	0x4,
+	{7, 5, 18, 203},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x45003,
+			28
+		}
+	}
+};
+
+resource rControlTemplate (0x46000) {
+	0x1,
+	{100, 122, 114, 169},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x46000,
+			0x46000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x46001) {
+	0x2,
+	{15, 65, 61, 233},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x46001,
+			70
+		}
+	}
+};
+
+resource rControlTemplate (0x46002) {
+	0x3,
+	{15, 15, 65, 54},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x46002,
+			26
+		}
+	}
+};
+
+resource rControlTemplate (0x46003) {
+	0x4,
+	{15, 246, 65, 285},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x46003,
+			26
+		}
+	}
+};
+
+resource rControlTemplate (0x46004) {
+	0x5,
+	{2, 15, 15, 49},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x46004,
+			13
+		}
+	}
+};
+
+resource rControlTemplate (0x46005) {
+	0x6,
+	{2, 246, 15, 279},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x46005,
+			12
+		}
+	}
+};
+
+resource rControlTemplate (0x46006) {
+	0x7,
+	{74, 33, 94, 273},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x46006,
+			63
+		}
+	}
+};
+
+resource rControlTemplate (0x48000) {
+	0x1,
+	{55, 122, 69, 169},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x48000,
+			0x48000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x48001) {
+	0x2,
+	{8, 15, 20, 119},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x48001,
+			20
+		}
+	}
+};
+
+resource rControlTemplate (0x48002) {
+	0x3,
+	{8, 168, 18, 272},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x48002,
+			20
+		}
+	}
+};
+
+resource rControlTemplate (0x48003) {
+	0x4,
+	{20, 35, 33, 99},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x48003,
+			8
+		}
+	}
+};
+
+resource rControlTemplate (0x48004) {
+	0x5,
+	{20, 188, 32, 252},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x48004,
+			8
+		}
+	}
+};
+
+resource rControlTemplate (0x48005) {
+	0x6,
+	{39, 42, 52, 243},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x48005,
+			28
+		}
+	}
+};
+
+resource rControlTemplate (0x49000) {
+	0x1,
+	{148, 133, 162, 180},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x1,
+			0x300A,
+			0x0,
+			0x49000,
+			0x49000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x49001) {
+	0x2,
+	{31, 28, 132, 113},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x49001,
+			113
+		}
+	}
+};
+
+resource rControlTemplate (0x49002) {
+	0x3,
+	{31, 147, 133, 208},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x49002,
+			83
+		}
+	}
+};
+
+resource rControlTemplate (0x49003) {
+	0x4,
+	{31, 245, 132, 290},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x49003,
+			63
+		}
+	}
+};
+
+resource rControlTemplate (0x49004) {
+	0x5,
+	{18, 20, 30, 121},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x49004,
+			14
+		}
+	}
+};
+
+resource rControlTemplate (0x49005) {
+	0x5,
+	{18, 138, 28, 212},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x49005,
+			18
+		}
+	}
+};
+
+resource rControlTemplate (0x49006) {
+	0x6,
+	{18, 229, 28, 302},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x49006,
+			18
+		}
+	}
+};
+
+resource rControlTemplate (0x4B000) {
+	0x1,
+	{138, 125, 152, 172},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x0,
+			0x300A,
+			0x0,
+			0x4B000,
+			0x4B000,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0x4B001) {
+	0x2,
+	{31, 61, 116, 232},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4B001,
+			125
+		}
+	}
+};
+
+resource rControlTemplate (0x4B002) {
+	0x3,
+	{31, 19, 114, 60},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4B002,
+			54
+		}
+	}
+};
+
+resource rControlTemplate (0x4B003) {
+	0x4,
+	{31, 237, 111, 278},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4B003,
+			54
+		}
+	}
+};
+
+resource rControlTemplate (0x4B004) {
+	0x5,
+	{12, 17, 24, 106},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4B004,
+			10
+		}
+	}
+};
+
+resource rControlTemplate (0x4B005) {
+	0x6,
+	{12, 192, 22, 280},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x4B005,
+			14
+		}
+	}
+};
+
+resource rControlTemplate (0x50000) {
+	0x1,
+	{5, 8, 27, 178},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0x50000,
+			46
+		}
+	}
+};
+
+resource rControlTemplate (0xA4A00) {
+	0x1,
+	{44, 121, 58, 168},
+	SimpleButtonControl {
+		 {	/* optional Fields */
+			0x1,
+			0x300A,
+			0x0,
+			0xA4A00,
+			0xA4A00,
+			{	/* array: 1 elements */
+				/* [1] */
+				"\r",
+				"\n",
+				0x0,
+				0x0
+			}
+		}
+	}
+};
+
+resource rControlTemplate (0xA4A01) {
+	0x2,
+	{2, 2, 13, 174},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0xA4A01,
+			26
+		}
+	}
+};
+
+resource rControlTemplate (0xA4A02) {
+	0x3,
+	{13, 10, 41, 283},
+	statTextControl {
+		 {	/* optional Fields */
+			0x0,
+			0x1002,
+			0x0,
+			0xA4A02,
+			90
+		}
+	}
+};
+
+resource rPString (0xA) {
+	"@"
+};
+
+resource rPString (0xB) {
+	" Game "
+};
+
+resource rPString (0xC) {
+	" Edit "
+};
+
+resource rPString (0xD) {
+	" Info "
+};
+
+resource rPString (0x14) {
+	"About..."
+};
+
+resource rPString (0x15) {
+	"Help"
+};
+
+resource rPString (0x16) {
+	"Begin Game"
+};
+
+resource rPString (0x17) {
+	"Abort Game"
+};
+
+resource rPString (0x18) {
+	"Quit"
+};
+
+resource rPString (0x19) {
+	"Cut"
+};
+
+resource rPString (0x1A) {
+	"Copy"
+};
+
+resource rPString (0x1B) {
+	"Paste"
+};
+
+resource rPString (0x1C) {
+	"Clear"
+};
+
+resource rPString (0x1D) {
+	"This Rally..."
+};
+
+resource rPString (0x1E) {
+	"This Game..."
+};
+
+resource rPString (0x1F) {
+	"Player..."
+};
+
+resource rPString (0x20) {
+	"Hall of Fame"
+};
+
+resource rPString (0x107) {
+	"Turn Sound Off"
+};
+
+resource rPString (0x108) {
+	"Turn Deck Count On"
+};
+
+resource rPString (0x11000) {
+	"Help Index"
+};
+
+resource rPString (0x12000) {
+	"Help"
+};
+
+resource rPString (0x13000) {
+	"Help"
+};
+
+resource rPString (0x15000) {
+	"Help"
+};
+
+resource rPString (0x16000) {
+	"Rally Status"
+};
+
+resource rPString (0x18000) {
+	"Game Score"
+};
+
+resource rPString (0x19000) {
+	"Hall of Fame"
+};
+
+resource rPString (0x1A000) {
+	"Hall of Fame"
+};
+
+resource rPString (0x1B000) {
+	"Finish Line"
+};
+
+resource rPString (0x20000) {
+	"Game Board"
+};
+
+resource rPString (0x41000) {
+	"Explain"
+};
+
+resource rPString (0x41001) {
+	"Done"
+};
+
+resource rPString (0x41002) {
+	"ReliefWare"
+};
+
+resource rPString (0x41003) {
+	"Object of the Game"
+};
+
+resource rPString (0x41004) {
+	"A Rally"
+};
+
+resource rPString (0x41005) {
+	"The Deck of Cards"
+};
+
+resource rPString (0x41006) {
+	"  Distance Cards"
+};
+
+resource rPString (0x41007) {
+	"  Go & Stop Cards"
+};
+
+resource rPString (0x41008) {
+	"  Limit Cards"
+};
+
+resource rPString (0x41009) {
+	"  Problem Cards"
+};
+
+resource rPString (0x4100A) {
+	"  Fix Cards"
+};
+
+resource rPString (0x4100B) {
+	"Power Cards"
+};
+
+resource rPString (0x4100C) {
+	"A Typical Turn"
+};
+
+resource rPString (0x4100D) {
+	"Gotchas!"
+};
+
+resource rPString (0x4100E) {
+	"The Checkpoint"
+};
+
+resource rPString (0x4100F) {
+	"How a Hand Ends"
+};
+
+resource rPString (0x41010) {
+	"Scoring"
+};
+
+resource rPString (0x41011) {
+	"Winning the Game"
+};
+
+resource rPString (0x41012) {
+	"Strategy Hints"
+};
+
+resource rPString (0x41013) {
+	"The Game Menu"
+};
+
+resource rPString (0x41014) {
+	"The Edit Menu"
+};
+
+resource rPString (0x41015) {
+	"The Info Menu"
+};
+
+resource rPString (0x41016) {
+	"The Hall of Fame"
+};
+
+resource rPString (0x41017) {
+	"Acknowledgements"
+};
+
+resource rPString (0x42000) {
+	"Done"
+};
+
+resource rPString (0x42001) {
+	"<- Back"
+};
+
+resource rPString (0x42002) {
+	"Next ->"
+};
+
+resource rPString (0x43000) {
+	"OK"
+};
+
+resource rPString (0x45000) {
+	"OK"
+};
+
+resource rPString (0x45001) {
+	"Cancel"
+};
+
+resource rPString (0x45002) {
+	"Human"
+};
+
+resource rPString (0x46000) {
+	"OK"
+};
+
+resource rPString (0x48000) {
+	"OK"
+};
+
+resource rPString (0x49000) {
+	"OK"
+};
+
+resource rPString (0x4B000) {
+	"OK"
+};
+
+resource rPString (0xA4A00) {
+	"OK"
+};
+
+resource rMenuBar (0x1) {
+	{	/* array: 4 elements */
+		/* [1] */
+		0xA,
+		/* [2] */
+		0xB,
+		/* [3] */
+		0xC,
+		/* [4] */
+		0xD
+	}
+};
+
+resource rMenu (0xA) {
+	0x1,
+	0xA008,
+	0xA,
+	{	/* array: 1 elements */
+		/* [1] */
+		0x14
+	}
+};
+
+resource rMenu (0xB) {
+	0x2,
+	0xA008,
+	0xB,
+	{	/* array: 4 elements */
+		/* [1] */
+		0x15,
+		/* [2] */
+		0x16,
+		/* [3] */
+		0x17,
+		/* [4] */
+		0x18
+	}
+};
+
+resource rMenu (0xC) {
+	0x3,
+	0xA088,
+	0xC,
+	{	/* array: 4 elements */
+		/* [1] */
+		0x19,
+		/* [2] */
+		0x1A,
+		/* [3] */
+		0x1B,
+		/* [4] */
+		0x1C
+	}
+};
+
+resource rMenu (0xD) {
+	0x4,
+	0xA000,
+	0xD,
+	{	/* array: 6 elements */
+		/* [1] */
+		0x1D,
+		/* [2] */
+		0x1E,
+		/* [3] */
+		0x1F,
+		/* [4] */
+		0x20,
+		/* [5] */
+		0x107,
+		/* [6] */
+		0x108
+	}
+};
+
+resource rMenuItem (0x14) {
+	0x12D,
+	"",
+	"",
+	0x0,
+	0xA000,
+	0x14
+};
+
+resource rMenuItem (0x15) {
+	0x12E,
+	"?",
+	"?",
+	0x0,
+	0xA040,
+	0x15
+};
+
+resource rMenuItem (0x16) {
+	0x12F,
+	"B",
+	"b",
+	0x0,
+	0xA000,
+	0x16
+};
+
+resource rMenuItem (0x17) {
+	0x130,
+	"A",
+	"a",
+	0x0,
+	0xA040,
+	0x17
+};
+
+resource rMenuItem (0x18) {
+	0x131,
+	"Q",
+	"q",
+	0x0,
+	0xA000,
+	0x18
+};
+
+resource rMenuItem (0x19) {
+	0xFB,
+	"X",
+	"x",
+	0x0,
+	0xA000,
+	0x19
+};
+
+resource rMenuItem (0x1A) {
+	0xFC,
+	"C",
+	"c",
+	0x0,
+	0xA000,
+	0x1A
+};
+
+resource rMenuItem (0x1B) {
+	0xFD,
+	"V",
+	"v",
+	0x0,
+	0xA000,
+	0x1B
+};
+
+resource rMenuItem (0x1C) {
+	0xFE,
+	"",
+	"",
+	0x0,
+	0xA000,
+	0x1C
+};
+
+resource rMenuItem (0x1D) {
+	0x132,
+	"R",
+	"r",
+	0x0,
+	0x8000,
+	0x1D
+};
+
+resource rMenuItem (0x1E) {
+	0x133,
+	"G",
+	"g",
+	0x0,
+	0xA040,
+	0x1E
+};
+
+resource rMenuItem (0x1F) {
+	0x134,
+	"P",
+	"p",
+	0x0,
+	0xA000,
+	0x1F
+};
+
+resource rMenuItem (0x20) {
+	0x135,
+	"H",
+	"h",
+	0x0,
+	0xA040,
+	0x20
+};
+
+resource rMenuItem (0x107) {
+	0x136,
+	"S",
+	"s",
+	0x0,
+	0x8000,
+	0x107
+};
+
+resource rMenuItem (0x108) {
+	0x137,
+	"D",
+	"d",
+	0x0,
+	0x8000,
+	0x108
+};
+
+resource rTextForLETextBox2(0x42003, $0000) {
+    TBForeColor TBColor7
+    "Reliefware"
+    TBForeColor TBColor0
+    " is like Shareware,\n"
+    "  except that all money goes to homeless\n"
+    "  relief efforts.  The author keeps NONE\n"
+    "  of the money.\n"
+    "Try "
+    TBForeColor TBColor5
+    "Milestones 2000"
+    TBForeColor TBColor0
+    " for 3 days.\n"
+    "  If you keep it, send $15 to the address\n"
+    "  in the 'About...' box. If not, please\n"
+    "  delete it or pass it on to a friend.\n"
+    "You are blessed - you have an address,\n"
+    "  a roof, and a computer.  Please help\n"
+    "  those who don't.  THANKS!"
+};
+
+resource rTextForLETextBox2(0x42004, $0000) {
+    "The "
+    TBForeColor TBColor7
+    "Object of the Game"
+    TBForeColor TBColor0
+    " is to score\n"
+    "  5000 points by competing in a series\n"
+    "  of road rallies.  Your Apple ][gs is\n"
+    "  your opponent.\n"
+    "You use a special deck of cards to play\n"
+    "  Milestones 2000.  There are Distance\n"
+    "  cards, Fix cards, and Power cards to \n"
+    "  aid your cause, and Problem cards to\n"
+    "  hinder your opponent. "
+};
+
+resource rTextForLETextBox2(0x42005, $0000) {
+    "A "
+    TBForeColor TBColor7
+    "Rally"
+    TBForeColor TBColor0
+    " is a race of 1500 to 2000\n"
+    "  kilometers.  Once you get a green light\n"
+    "  (by playing a "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " card), you play\n"
+    "  distance cards until your opponent\n"
+    "  stops you with a Problem.  If he does,\n"
+    "  you must Fix the Problem and play\n"
+    "  another "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " card before\n"
+    "  proceeding."
+};
+
+resource rTextForLETextBox2(0x42006, $0000) {
+    TBForeColor TBColor7
+    "The deck of cards:"
+    TBForeColor TBColor0
+    "\n"
+    "  46 Distance Cards\n"
+    "  13 Problem Cards\n"
+    "  38 Fix Cards\n"
+    "    4 Power Cards\n"
+    " ---\n"
+    "101 Cards in the deck\n"
+    "\n"
+    "Each type of card is explained in\n"
+    "  detail in the following screens.\n"
+    "  "
+};
+
+resource rTextForLETextBox2(0x42007, $0000) {
+    TBForeColor TBColor4
+    "Distance Cards"
+    TBForeColor TBColor0
+    " have a milepost on\n"
+    "  them.  There are ten each of "
+    TBForeColor TBColor4
+    "50km"
+    TBForeColor TBColor0
+    ",\n"
+    "  "
+    TBForeColor TBColor4
+    "100km"
+    TBForeColor TBColor0
+    ", and "
+    TBForeColor TBColor4
+    "150km"
+    TBForeColor TBColor0
+    "; twelve "
+    TBForeColor TBColor4
+    "200km"
+    TBForeColor TBColor0
+    ";\n"
+    "  and four "
+    TBForeColor TBColor4
+    "400km"
+    TBForeColor TBColor0
+    ".  Playing one on yourself\n"
+    "  moves you forward.\n"
+    "The "
+    TBForeColor TBColor4
+    "400km"
+    TBForeColor TBColor0
+    " cards are so powerful,\n"
+    "  that you are limited to playing up to\n"
+    "  two in a single rally.\n"
+    "There is a Safe Trip bonus for finishing\n"
+    "  a rally without playing any "
+    TBForeColor TBColor4
+    "400km"
+    TBForeColor TBColor0
+    "\n"
+    "  cards (see How to Score).           "
+};
+
+resource rTextForLETextBox2(0x42008, $0000) {
+    "There are 14 "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " cards in the deck.\n"
+    "  They are the Fix for the 4 "
+    TBForeColor TBColor7
+    "Stop!"
+    TBForeColor TBColor0
+    "\n"
+    "  cards.\n"
+    "You must play a "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " card on yourself\n"
+    "  before you can play any Distance cards.\n"
+    "After Fixing a "
+    TBForeColor TBColor7
+    "Crash"
+    TBForeColor TBColor0
+    ", "
+    TBForeColor TBColor7
+    "Empty"
+    TBForeColor TBColor0
+    ", or\n"
+    "  "
+    TBForeColor TBColor7
+    "Flat"
+    TBForeColor TBColor0
+    " Problem, you must play a NEW\n"
+    "  "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " card."
+};
+
+resource rTextForLETextBox2(0x42009, $0000) {
+    "The "
+    TBForeColor TBColor7
+    "Speed Limit"
+    TBForeColor TBColor0
+    " cards are played\n"
+    "  on your opponent.  During a speed limit,\n"
+    "  only "
+    TBForeColor TBColor4
+    "50km"
+    TBForeColor TBColor0
+    " and "
+    TBForeColor TBColor4
+    "100km"
+    TBForeColor TBColor0
+    " cards may be\n"
+    "  used.  There are three such cards.\n"
+    "There are six "
+    TBForeColor TBColor5
+    "End of Limit"
+    TBForeColor TBColor0
+    " cards in\n"
+    "  the deck.  Play one on yourself to Fix\n"
+    "  a "
+    TBForeColor TBColor7
+    "Speed Limit"
+    TBForeColor TBColor0
+    ".\n"
+    "Unlike other Problems, you can play a\n"
+    "  "
+    TBForeColor TBColor7
+    "Speed Limit"
+    TBForeColor TBColor0
+    " on your opponent\n"
+    "  even if they have another Problem."
+};
+
+resource rTextForLETextBox2(0x4200a, $0000) {
+    "In addition to "
+    TBForeColor TBColor7
+    "Stop!"
+    TBForeColor TBColor0
+    " and "
+    TBForeColor TBColor7
+    "Speed\n"
+    "  Limit"
+    TBForeColor TBColor0
+    ", there are three other types\n"
+    "  of "
+    TBForeColor TBColor7
+    "Problem Cards"
+    TBForeColor TBColor0
+    ".  They are\n"
+    "  "
+    TBForeColor TBColor7
+    "Crash"
+    TBForeColor TBColor0
+    ", "
+    TBForeColor TBColor7
+    "Empty"
+    TBForeColor TBColor0
+    ", and "
+    TBForeColor TBColor7
+    "Flat"
+    TBForeColor TBColor0
+    ".  The deck\n"
+    "  has two each of these Problems.\n"
+    "  Problem cards are mostly red.\n"
+    "You may only play these Problems on\n"
+    "  your opponent when he has a green\n"
+    "  light."
+};
+
+resource rTextForLETextBox2(0x4200b, $0000) {
+    "In addition to "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " and "
+    TBForeColor TBColor5
+    "End \n"
+    "  Limit"
+    TBForeColor TBColor0
+    ", there are three other types\n"
+    "  of "
+    TBForeColor TBColor5
+    "Fix Cards"
+    TBForeColor TBColor0
+    ".  They are "
+    TBForeColor TBColor5
+    "Repairs"
+    TBForeColor TBColor0
+    ", \n"
+    "  "
+    TBForeColor TBColor5
+    "Gas"
+    TBForeColor TBColor0
+    ", and "
+    TBForeColor TBColor5
+    "Spare"
+    TBForeColor TBColor0
+    ".  The deck has six of \n"
+    "  each of these Fixes, which are mostly\n"
+    "  green.\n"
+    "You play these on yourself when stopped\n"
+    "  by a problem.  Remember, they must be\n"
+    "  followed by a "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " card before\n"
+    "  you can start moving again.     "
+};
+
+resource rTextForLETextBox2(0x4200c, $0000) {
+    "There are 4 unique "
+    TBForeColor TBColor3
+    "Power Cards"
+    TBForeColor TBColor0
+    ":\n"
+    "  "
+    TBForeColor TBColor3
+    "Right of Way"
+    TBForeColor TBColor0
+    ", "
+    TBForeColor TBColor3
+    "Super Driver"
+    TBForeColor TBColor0
+    ",\n"
+    "  "
+    TBForeColor TBColor3
+    "Extra Fuel"
+    TBForeColor TBColor0
+    ", and "
+    TBForeColor TBColor3
+    "Self-Sealer"
+    TBForeColor TBColor0
+    ".\n"
+    "  They have a rainbow stripe on the left\n"
+    "  side.\n"
+    "Playing a Power Card not only removes\n"
+    "  the corresponding Problem, it provides\n"
+    "  a green light and PREVENTS that Problem\n"
+    "  for the rest of that rally.\n"
+    TBForeColor TBColor3
+    "Right of Way"
+    TBForeColor TBColor0
+    " is also a permanent\n"
+    "  "
+    TBForeColor TBColor5
+    "Go!"
+    TBForeColor TBColor0
+    " card.\n"
+    "Playing a Power Card earns 100 bonus\n"
+    "  points and an extra turn.  "
+};
+
+resource rTextForLETextBox2(0x4200d, $0000) {
+    "In a "
+    TBForeColor TBColor7
+    "Typical Turn"
+    TBForeColor TBColor0
+    ", you are dealt\n"
+    "  enough cards to bring your hand to 7\n"
+    "  cards.  Then you play a card by dragging\n"
+    "  it with the mouse.\n"
+    "To play a Distance, Fix or Power card on\n"
+    "  yourself, release the card over your\n"
+    "  "
+    TBForeColor TBColor4
+    "blue"
+    TBForeColor TBColor0
+    " car.\n"
+    "To play a Problem card on the ][gs,\n"
+    "  release it over the "
+    TBForeColor TBColor7
+    "red"
+    TBForeColor TBColor0
+    " car.\n"
+    "If you have no good play, you must drag\n"
+    "  a card to the DISCARD pile. Discards\n"
+    "  are out of play for that rally."
+};
+
+resource rTextForLETextBox2(0x4200e, $0000) {
+    TBForeColor TBColor7
+    "Gotchas!"
+    TBForeColor TBColor0
+    " are a special use of the\n"
+    "  Power Cards.  If you are HOLDING a Power\n"
+    "  Card when hit with the corresponding\n"
+    "  Problem, play the Power Card RIGHT\n"
+    "  THEN as a "
+    TBForeColor TBColor7
+    "Gotcha!"
+    TBForeColor TBColor0
+    ".\n"
+    "You get a 300-point bonus (in addition\n"
+    "  to the 100 for playing a Power Card).\n"
+    "Playing a Power card after you have had\n"
+    "  the problem for more than one turn\n"
+    "  does not entitle you to the "
+    TBForeColor TBColor7
+    "Gotcha!"
+    TBForeColor TBColor0
+    "\n"
+    "  bonus.   "
+};
+
+resource rTextForLETextBox2(0x4200f, $0000) {
+    TBForeColor TBColor7
+    "The Checkpoint"
+    TBForeColor TBColor0
+    " is at 1500km.\n"
+    "  To win a rally, you must reach it\n"
+    "  exactly.\n"
+    "When you reach 1500km, you can either\n"
+    "  end the rally and take a 400-point\n"
+    "  bonus, or extend the rally to 2000km\n"
+    "  for an extra 200-point bonus.\n"
+    "If you extend, and your opponent beats\n"
+    "  you to 2000km (or the deck is used up),\n"
+    "  you do NOT get the 400-point bonus."
+};
+
+resource rTextForLETextBox2(0x42010, $0000) {
+    TBForeColor TBColor7
+    "A Hand Ends"
+    TBForeColor TBColor0
+    " when a player reaches\n"
+    "  a checkpoint, or the deck is used up\n"
+    "  (even if players have playable cards\n"
+    "  in their hands).\n"
+    "If the deck is used up, neither player\n"
+    "  earns finishing or safe-trip bonuses\n"
+    "  for that rally."
+};
+
+resource rTextForLETextBox2(0x42011, $0000) {
+    TBForeColor TBColor7
+    "Scoring:"
+    TBForeColor TBColor0
+    "\n"
+    "  1/2 pt  for each km traveled\n"
+    "  400 pts for winning at 1500km\n"
+    "  600 pts for winning at 2000km\n"
+    "  300 pts for a safe trip (no 400kms)\n"
+    "  100 pts for each Power Card played\n"
+    "  300 pts for each Gotcha!\n"
+    "  300 pts for playing all 4 Power Cards\n"
+    "  500 pts if opponent travels 0km       "
+};
+
+resource rTextForLETextBox2(0x42012, $0000) {
+    TBForeColor TBColor7
+    "How to Win"
+    TBForeColor TBColor0
+    ": pass 5000 points at\n"
+    "  the end of a rally.  If both players\n"
+    "  pass, the high score wins.  In case of\n"
+    "  a tie, another rally is played to break\n"
+    "  the tie."
+};
+
+resource rTextForLETextBox2(0x42013, $0000) {
+    TBForeColor TBColor7
+    "Strategy Hints"
+    TBForeColor TBColor0
+    ":\n"
+    "  Keep track of what's been played or\n"
+    "discarded.  Once you've seen both Crash\n"
+    "cards, for example, Repairs cards are\n"
+    "worthless.\n"
+    "  Save Power Cards for Gotchas!, but\n"
+    "play them if the ][gs gets close to the\n"
+    "1500km checkpoint.\n"
+    "  Plan ahead - remember you must reach\n"
+    "checkpoints EXACTLY. That 50km card\n"
+    "you discarded may come back to haunt\n"
+    "you."
+};
+
+resource rTextForLETextBox2(0x42014, $0000) {
+    TBForeColor TBColor7
+    "Game Menu"
+    TBForeColor TBColor0
+    "\n"
+    "  "
+    TBForeColor TBColor2
+    "Start Game"
+    TBForeColor TBColor0
+    " begins a new game.\n"
+    "It is disabled if a player name has not\n"
+    "been entered.\n"
+    "  "
+    TBForeColor TBColor2
+    "Abort Game"
+    TBForeColor TBColor0
+    " aborts the current\n"
+    "game, and doesn't include it in the\n"
+    "Hall of Fame. The ][gs usually begs you\n"
+    "to reconsider.\n"
+    "  "
+    TBForeColor TBColor2
+    "Quit"
+    TBForeColor TBColor0
+    " exits the program. If a\n"
+    "game is in progress, it will be saved.     "
+};
+
+resource rTextForLETextBox2(0x42015, $0000) {
+    TBForeColor TBColor7
+    "Edit Menu"
+    TBForeColor TBColor0
+    "\n"
+    "  This is disabled unless used by an\n"
+    "NDA.  I can't see why you'd need it, but\n"
+    "there it is anyway."
+};
+
+resource rTextForLETextBox2(0x42016, $0000) {
+    TBForeColor TBColor7
+    "Info Menu"
+    TBForeColor TBColor0
+    "\n"
+    "  "
+    TBForeColor TBColor2
+    "This Rally"
+    TBForeColor TBColor0
+    " shows the points\n"
+    "earned for the current rally, the\n"
+    "current checkpoint (1500km or 2000km),\n"
+    "and how many cards remain in the deck.\n"
+    "  "
+    TBForeColor TBColor2
+    "This game"
+    TBForeColor TBColor0
+    " shows the current\n"
+    "score as of the last completed rally.\n"
+    "The current rally's points are NOT\n"
+    "included.\n"
+    "  "
+    TBForeColor TBColor2
+    "Player"
+    TBForeColor TBColor0
+    " allows you to enter your\n"
+    "name, so that your record can be in the\n"
+    "Hall of Fame."
+};
+
+resource rTextForLETextBox2(0x42017, $0000) {
+    TBLeftJust
+    TBLeftMargin "\$00\$00"
+    "\$01R" "\$04\$00"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor7
+    TBBackColor TBColorF
+    "The Hall of Fame"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor0
+    TBBackColor TBColorF
+    " lists the ten\n"
+    "  best players, their win-loss records,\n"
+    "  and their average point spread.  Your\n"
+    "  rank is based on total, not average,\n"
+    "  point spread.  \n"
+    "The other options toggle the sound\n"
+    "  and an onscreen count of cards left\n"
+    "  in the deck.\n"
+    "The Hall of Fame is stored in the file\n"
+    "  MSHOF.  To restart it, delete this file."
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor7
+    TBBackColor TBColorF
+};
+
+resource rTextForLETextBox2(0x42018, $0000) {
+    TBLeftJust
+    TBLeftMargin "\$00\$00"
+    "\$01R" "\$04\$00"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor7
+    TBBackColor TBColorF
+    "Acknowledgements"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor0
+    TBBackColor TBColorF
+    "\n"
+    "  Thanks to Creative Computing (may\n"
+    "they rest in peace) for publishing the\n"
+    "original Milestones in 1980.\n"
+    "  Thanks to my sister-in-law Gerry for\n"
+    "staying addicted to Milestones and\n"
+    "inspiring this version.\n"
+    "  Thanks to the Top-Secret Beta-Tester\n"
+    "Club (you know who you are).\n"
+    "  Thanks to YOU for supporting the\n"
+    "Reliefware concept.\n"
+    "  AND... Thanks to Terri, Matt, & Jeremy,\n"
+    "my loving and wonderful family."
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor7
+    TBBackColor TBColorF
+};
+
+resource rTextForLETextBox2(0x43001, $0000) {
+    TBCenterJust
+    TBLeftMargin "\$00\$00"
+    "\$01R" "\$04\$00"
+    TBFont  "\$ff\$00" "\$08\$08"
+    TBForeColor TBColor7
+    TBBackColor TBColorF
+    "Milestones 2000 v1.5\n"
+    "by Ken Franklin\n"
+    "\n"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor4
+    TBBackColor TBColorF
+    "RELIEFWARE: Please send $15 to:\n"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor0
+    TBBackColor TBColorF
+    "ReliefWare Central\n"
+    "Ken Franklin\n"
+    "1603 Northridge Ct\n"
+    "Clarksville, TN 37042-5162\n"
+    "\n"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor5
+    TBBackColor TBColorF
+    "Dedicated to\n"
+    "Jeff, Gerry, David & Sean\n"
+    "\n"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor TBColor0
+    TBBackColor TBColorF
+    ">>Written in ORCA/Pascal<<"
+    TBFont TBShaston "\$00\$08"
+    TBForeColor "\$08\$77"
+    TBBackColor "\$77\$ff"
+};
+
+resource rTextForLETextBox2(0x45003, $0000) {
+    TBForeColor TBColor1
+    "Please type your name:"
+};
+
+resource rTextForLETextBox2(0x46001, $0000) {
+    TBCenterJust
+    TBForeColor TBColor0
+    "km Travelled\n"
+    "Power Card Bonus\n"
+    "Gotcha! Bonus\n"
+    "Safe Trip So Far"
+};
+
+resource rTextForLETextBox2(0x46002, $0000) {
+    TBCenterJust
+    TBForeColor TBColor0
+    "####\n"
+    "####\n"
+    "####\n"
+    "Y"
+};
+
+resource rTextForLETextBox2(0x46003, $0000) {
+    TBCenterJust
+    TBForeColor TBColor0
+    "####\n"
+    "####\n"
+    "####\n"
+    "Y"
+};
+
+resource rTextForLETextBox2(0x46004, $0000) {
+    TBCenterJust
+    TBForeColor TBColor4
+    "You"
+};
+
+resource rTextForLETextBox2(0x46005, $0000) {
+    TBCenterJust
+    TBForeColor TBColor4
+    "Me"
+};
+
+resource rTextForLETextBox2(0x46006, $0000) {
+    TBCenterJust
+    TBForeColor TBColor4
+    "Finish line is at 1500km.\n"
+    "### cards left in the deck."
+};
+
+resource rTextForLETextBox2(0x48001, $0000) {
+    TBCenterJust
+    TBForeColor TBColor4
+    "Humanxxxxx"
+};
+
+resource rTextForLETextBox2(0x48002, $0000) {
+    TBCenterJust
+    TBForeColor TBColor4
+    "Apple IIGS"
+};
+
+resource rTextForLETextBox2(0x48003, $0000) {
+    TBCenterJust
+    "####"
+};
+
+resource rTextForLETextBox2(0x48004, $0000) {
+    TBCenterJust
+    "####"
+};
+
+resource rTextForLETextBox2(0x48005, $0000) {
+    TBCenterJust
+    TBForeColor TBColor4
+    "5000 wins the game"
+};
+
+resource rTextForLETextBox2(0x49001, $0000) {
+    TBCenterJust
+    "AAAAAAAAAA\n"
+    "BBBBBBBBBB\n"
+    "CCCCCCCCCC\n"
+    "DDDDDDDDDD\n"
+    "EEEEEEEEEE\n"
+    "FFFFFFFFFF\n"
+    "GGGGGGGGGG\n"
+    "HHHHHHHHHH\n"
+    "IIIIIIIIII\n"
+    "JJJJJJJJJJ"
+};
+
+resource rTextForLETextBox2(0x49002, $0000) {
+    TBCenterJust
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###\n"
+    "###-###"
+};
+
+resource rTextForLETextBox2(0x49003, $0000) {
+    TBCenterJust
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####\n"
+    "\$b1####"
+};
+
+resource rTextForLETextBox2(0x49004, $0000) {
+    TBCenterJust
+    TBForeColor TBColor3
+    "Name"
+};
+
+resource rTextForLETextBox2(0x49005, $0000) {
+    TBCenterJust
+    TBForeColor TBColor3
+    "Win-Loss"
+};
+
+resource rTextForLETextBox2(0x49006, $0000) {
+    TBCenterJust
+    TBForeColor TBColor3
+    "Avg Lead"
+};
+
+resource rTextForLETextBox2(0x4b001, $0000) {
+    TBCenterJust
+    TBForeColor TBColor1
+    "Previous Total\n"
+    "km Traveled\n"
+    "Power Card Bonus\n"
+    "Gotcha! Bonus\n"
+    "Finish Bonus\n"
+    "Safe Trip Bonus\n"
+    "Shutout Bonus\n"
+    "\n"
+    "---Total---"
+};
+
+resource rTextForLETextBox2(0x4b002, $0000) {
+    TBCenterJust
+    TBForeColor TBColor1
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "\n"
+    "\$00\$00####"
+};
+
+resource rTextForLETextBox2(0x4b003, $0000) {
+    TBCenterJust
+    TBForeColor TBColor1
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "####\n"
+    "\n"
+    "\$00\$00####"
+};
+
+resource rTextForLETextBox2(0x4b004, $0000) {
+    "HumanXXXXX"
+};
+
+resource rTextForLETextBox2(0x4b005, $0000) {
+    TBRightJust
+    "Apple IIGS"
+};
+
+resource rTextForLETextBox2(0x50000, $0000) {
+    "Setting things up...\n"
+    "   I'll just be a moment."
+};
+
+resource rTextForLETextBox2(0xa4a01, $0000) {
+    TBForeColor TBColor7
+    "You can't do that..."
+};
+
+resource rTextForLETextBox2(0xa4a02, $0000) {
+    TBCenterJust
+    "Explanation line 1 goes here\n"
+    "Explanation line 2 goes here\n"
+    "Explanation line 3 goes here"
+};
+
+
+
+data rCtlColorTbl (0x41000) {
+	$"5555 EEEE 5555 E5E5 5F5F"
+};
+
+data rCtlColorTbl (0x41001) {
+	$"7777 EEEE 7777 E7E7 7F7F"
+};
+
+data rCtlColorTbl (0x42000) {
+	$"7777 EEEE 7777 E7E7 7F7F"
+};
+
+data rCtlColorTbl (0x42001) {
+	$"5555 EEEE 5555 E5E5 5F5F"
+};
+
+data rCtlColorTbl (0x42002) {
+	$"5555 EEEE 5555 E5E5 5F5F"
+};
+
+data rCtlColorTbl (0x45000) {
+	$"5555 EEEE 5555 E5E5 5F5F"
+};
+
+data rCtlColorTbl (0x45001) {
+	$"7777 EEEE 7777 E7E7 7F7F"
+};
+
+data rCtlColorTbl (0x46000) {
+	$"4444 EEEE 4444 E4E4 4F4F"
+};
+
+data rCtlColorTbl (0x48000) {
+	$"4444 EEEE 4444 E4E4 4F4F"
+};
+
+data rCtlColorTbl (0x49000) {
+	$"3333 EEEE 3333 E3E3 3F3F"
+};
+
+data rCtlColorTbl (0x4B000) {
+	$"0000 EEEE 0000 E0E0 0F0F"
+};
+
+data rCtlColorTbl (0xA4A00) {
+	$"0000 EEEE 0000 E0E0 0F0F"
+};
+
+resource rWindParam1 (0x11000) {
+	0xC0ED,
+	0x11000,
+	0x0,
+	{50, 40, 80, 174},
+	0x11000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{32, 0, 192, 320},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x12000) {
+	0xC0CD,
+	0x12000,
+	0x0,
+	{50, 40, 80, 132},
+	0x12000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{28, 4, 197, 316},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x13000) {
+	0x206D,
+	0x13000,
+	0x0,
+	{50, 40, 80, 200},
+	0x13000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{25, 16, 188, 305},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x15000) {
+	0x206D,
+	0x15000,
+	0x0,
+	{50, 40, 80, 200},
+	0x15000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{66, 40, 130, 285},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x16000) {
+	0xC0CD,
+	0x16000,
+	0x0,
+	{78, 12, 197, 310},
+	0x16000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{78, 12, 194, 310},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x18000) {
+	0xC0CD,
+	0x18000,
+	0x0,
+	{50, 40, 80, 185},
+	0x18000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{103, 16, 177, 306},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x19000) {
+	0xC0CD,
+	0x19000,
+	0x0,
+	{50, 40, 80, 187},
+	0x19000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{26, 0, 200, 320},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x1B000) {
+	0x80CD,
+	0x1B000,
+	0x0,
+	{50, 40, 80, 177},
+	0x1B000,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{37, 12, 192, 308},
+	infront,
+	0x0,
+	0xA00
+};
+
+resource rWindParam1 (0x20000) {
+	0x806F,
+	0x20000,
+	0x0,
+	{13, 0, 200, 320},
+	0x0,
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	{0, 0},
+	0x0,
+	0,
+	{13, 0, 200, 320},
+	infront,
+	0x0,
+	0x200
+};
+
+resource rWindColor (0x11000) {
+	0x70,
+	0xF7F,
+	0x77,
+	0x0,
+	0x0
+};
+
+resource rWindColor (0x12000) {
+	0x70,
+	0xF7F,
+	0x77,
+	0x0,
+	0x0
+};
+
+resource rWindColor (0x13000) {
+	0x40,
+	0x0,
+	0x0,
+	0x5000,
+	0x9000
+};
+
+resource rWindColor (0x15000) {
+	0x20,
+	0x0,
+	0x0,
+	0x8000,
+	0x2000
+};
+
+resource rWindColor (0x16000) {
+	0x40,
+	0xF4F,
+	0x44,
+	0x0,
+	0x0
+};
+
+resource rWindColor (0x18000) {
+	0x40,
+	0xF4F,
+	0x44,
+	0x0,
+	0x0
+};
+
+resource rWindColor (0x19000) {
+	0x30,
+	0xF3F,
+	0x33,
+	0x0,
+	0x0
+};
+
+resource rWindColor (0x1B000) {
+	0x10,
+	0xF10,
+	0x10F,
+	0x0,
+	0x0
+};
+
+resource rToolStartup (0x1) {
+	mode320,
+	{	/* array TOOLRECS: 17 elements */
+		/* [1] */
+		0x3,
+		0x0,
+		/* [2] */
+		0x4,
+		0x0,
+		/* [3] */
+		0x5,
+		0x0,
+		/* [4] */
+		0x6,
+		0x0,
+		/* [5] */
+		0x8,
+		0x0,
+		/* [6] */
+		0xB,
+		0x0,
+		/* [7] */
+		0xE,
+		0x0,
+		/* [8] */
+		0xF,
+		0x0,
+		/* [9] */
+		0x10,
+		0x0,
+		/* [10] */
+		0x12,
+		0x0,
+		/* [11] */
+		0x14,
+		0x0,
+		/* [12] */
+		0x15,
+		0x0,
+		/* [13] */
+		0x16,
+		0x0,
+		/* [14] */
+		0x1B,
+		0x0,
+		/* [15] */
+		0x1D,
+		0x0,
+		/* [16] */
+		0x1E,
+		0x0,
+		/* [17] */
+		0x22,
+		0x0
+	}
+};
+
