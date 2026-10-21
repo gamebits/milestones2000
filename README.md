@@ -1,9 +1,9 @@
 # Programmer’s notes (October 2026)
 
-Thanks to the hundreds of people who downloaded and paid Reliefware fees for this game. I no longer live in Tennessee, but can be reached at drkenfp@mac.com if you have any general questions about the game. I no longer own my beloved Apple ][gs, so I am unable to assist with any technical questions about the build. I give you permission to peruse and play with these files for your personal use. I do not give permission for anyone to sell these files for any purpose.
+Thanks to the hundreds of people who downloaded and paid Reliefware fees for this game. I no longer live in Tennessee, but can be reached at `drkenfp@mac.com` if you have any general questions about the game. I no longer own my beloved Apple ][gs, so I am unable to assist with any technical questions about the build. I give you permission to peruse and play with these files for your personal use. I do not give permission for anyone to sell these files for any purpose.
 
-God Bless,
-Ken Franklin”
+God Bless,  
+Ken Franklin
 
 # Documentation for "Milestones 2000" by Ken Franklin
 
